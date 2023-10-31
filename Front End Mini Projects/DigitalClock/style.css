@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://www.solidbackgrounds.com/download/2560x1440-water-drop-pearls-on-green-leaves-free-website-background-image.jpg");
+  background-size: cover;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 75px;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(92, 245, 229);
+  text-shadow: 5px 5px 10px rgb(0, 2, 300);
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock span {
+  width: 150px;
+  height: 130px;
+  background-color: lightcyan;
+  opacity: 0.8;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 95px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: aquamarine;
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 800;
+  background: rgba(70, 216, 252, 0.7);
+}
+
+.delim {
+    bottom: 10px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+}

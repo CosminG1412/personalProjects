@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+}
+
+.main-title {
+  color: blue;
+  font-size: 1em;
+}
+
+.secondary-title {
+  font-size: 1em;
+}
+
+#fourth-title {
+  color: green;
+}
+
+#second-title {
+  color: magenta;
+}
+
+#myBtn:hover {
+  background-color: royalblue;
+}
+
+button:nth-child(1) {
+  background-color: brown;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  padding: 20px;
+  margin: 20px;
+  font-size: 0.5em;
+}
+
+.contained {
+  width: 50px;
+  height: 50%;
+  border: 3px solid black;
+}
+
+.blockuri {
+  background-color: bisque;
+  height: 100em;
+}
+
+.block1 {
+  position: relative;
+  left: 10em;
+  background-color: aquamarine;
+  width: 10em;
+  height: 10em;
+}
+.block2 {
+  position: absolute;
+  background-color: brown;
+  width: 10em;
+  height: 10em;
+  left: 10em;
+}
+.block3 {
+  top: 1em;
+  left: 1em;
+  position: sticky;
+  background-color: cadetblue;
+  width: 10em;
+  height: 10em;
+}
+
+#myInput::placeholder{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rosybrown;
+    font-size: 0.7em;
+}
+
+#myTitle::after{
+    content: "test";
+}
+
+#myTitle::before{
+    content: "inainte";
+}
+
+/* 
+1rem = 16px
+px = %
+*/
