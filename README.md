@@ -5,8 +5,5 @@ This repo contains some of my little personal projects
 - a simple weather app where I've implemented the OpenWeatherMap API
 - ToDo: change the background to a dark one when it's evening/night + different images (moon, stars etc)
 
-# Pacanele
-- a console slot machine using NodeJS
-
 # FrontEnd Mini Projects
 - a bunch of "entry level" projects using HTML/CSS/Vanilla JS
