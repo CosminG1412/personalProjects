@@ -1,5 +1,5 @@
 # personalProjects
-This repo contains some of my little personal projects
+This repo contains some of my personal projects
 
 # Weather App
 - a simple weather app where I've implemented the OpenWeatherMap API
